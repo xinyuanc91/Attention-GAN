@@ -4,6 +4,3 @@ This repository provides the PyTorch code for our paper “Attention-GAN for obj
     bash datasets/download_cyclegan_dataset.sh horse2zebra
 ## Train
     bash scripts/train_attngan.sh
-
-## Test
-    bash scripts/test_attngan.sh
