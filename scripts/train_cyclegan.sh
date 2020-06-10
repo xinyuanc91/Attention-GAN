@@ -1,0 +1,12 @@
+python train.py \
+--dataroot datasets/horse2zebra \
+--name zebra_attngan \
+--model cycle_attn_gan \
+--niter 110 \
+--lr_policy step \
+--pool_size 50 \
+--display_freq 2000 \
+--no_dropout \
+--display_id 0 \
+--batchSize 4 \
+--gpu_ids 0
